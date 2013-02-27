@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2013 Yu AOKI -->
+<resources>
+
+    <string name="app_name">NetworkStateSample</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="type_label">Type : </string>
+    <string name="subtype_label"><u>Subtype</u> : </string>
+    <string name="state_label"><u>State</u> : </string>
+    <string name="detailed_state_label"><u>Detailed state</u> : </string>
+    <string name="extra_label"><u>Extra</u> : </string>
+    <string name="reason_label"><u>Reason</u> : </string>
+    <string name="availability_label"><u>Available</u> : </string>
+    <string name="connected_label"><u>Connected</u> : </string>
+    <string name="connecting_label"><u>Connected or Connecting</u> : </string>
+    <string name="failover_label"><u>Failover</u> : </string>
+    <string name="roaming_label"><u>Roaming</u> : </string>
+
+    <string name="wifi_control_label">Wi-Fi</string>
+    <string name="mobile_control_label">Mobile</string>
+
+    <string name="mobile_error_messasge">This app has been tested only on Android 4.1.2.</string>
+
+</resources>
