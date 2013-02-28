@@ -128,14 +128,14 @@ public class NetworkStateFragment extends Fragment {
 
     private void updateWifiSwitch() {
         NetworkInfo info = getWifiInfo();
-        boolean connected = info.isConnected();
-        mWifiSwitch.setChecked(connected);
+        boolean available = info.isAvailable();
+        mWifiSwitch.setChecked(available);
     }
 
     private void updateMobileSwitch() {
         NetworkInfo info = getMobileInfo();
-        boolean connected = info.isConnected();
-        mMobileSwitch.setChecked(connected);
+        boolean available = info.isAvailable();
+        mMobileSwitch.setChecked(available);
     }
 
     private NetworkInfo getWifiInfo() {
